@@ -1,0 +1,22 @@
+name: CE-GNN_Elasticproperties_Prediction
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - matplotlib
+  - scipy
+  - networkx
+  - scikit-learn
+  - torch
+  - torch-geometric
+  - atomman
+  - numba
+  - jupyter  # Optional: useful for interactive notebooks
+  - pip
+  - pip:
+      - torch-sparse
+      - torch-scatter
+      - torch-cluster
+      - torch-spline-conv
